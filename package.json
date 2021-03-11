@@ -1,0 +1,20 @@
+{
+  "name": "smartplanner-server",
+  "version": "1.0.0",
+  "description": "A server for hosting the smartplanner app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frederik Duchi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-hid": "^2.1.1",
+    "socket.io": "^3.1.2"
+  }
+}

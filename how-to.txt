@@ -1,0 +1,23 @@
+AUTOMATISCH STARTEN VAN EEN NODE SCRIPT
+
+1. open terminal en tik 
+nano /home/pi/autostartserver
+
+2. tik volgende lijnen in bij de nano editor
+cd smartplanner-server
+sudo node index.js
+
+3. sla het bestand op
+
+
+4. navigeer naar
+cd /
+cd etc/xdg/lxsession/LXDE-pi
+
+5. tik in:
+sudo nano autostart
+
+6. vul een lijn aan met
+lxterminal -e bash /home/pi/autostartserver
+
+
